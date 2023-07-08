@@ -18,6 +18,7 @@ public class CustomUserDetailService implements UserDetailsService {
         user.setPassword("password");
         user.setRole("NORMAL");
         user.setId("1");
+        System.out.println(user);
         if (!user.getUsername().equals(username)) {
             throw new UsernameNotFoundException("User Not Found");
         }
