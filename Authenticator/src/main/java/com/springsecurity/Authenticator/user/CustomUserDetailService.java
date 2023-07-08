@@ -8,17 +8,17 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class CustomUserDetailService implements UserDetailsService {
-  //  @Autowired
+    //  @Autowired
     //private UserRepository userRepository;
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-      //  User user = userRepository.findByUserName(username);
+        //  User user = userRepository.findByUserName(username);
         User user = new User();
         user.setUsername("ram");
         user.setPassword("password");
-       user.setRole("NORMAL");
+        user.setRole("NORMAL");
         user.setId("1");
-        if(!user.getUsername().equals(username)){
+        if (!user.getUsername().equals(username)) {
             throw new UsernameNotFoundException("User Not Found");
         }
         return new CustomUserDetails(user);
