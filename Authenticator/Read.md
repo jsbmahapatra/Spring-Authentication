@@ -1,4 +1,4 @@
-1) Create JWT Token for first time getting client call
+1) Create JWT Token for first time getting from client call
    http://localhost:8080/token, Method : Post
    Request Body :
    {
