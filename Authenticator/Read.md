@@ -5,7 +5,7 @@
       "username":"ram",
       "password":"password"
    }
-   Response :
+   Response Note:
    {
    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYW0iLCJleHAiOjE2ODU3MzY0NDYsImlhdCI6MTY4NTcwMDQ0Nn0.jyCl5j3BEo4PWTofT4bk5ikV8dkpt5NAY88ZRj5RyD0"
    }
